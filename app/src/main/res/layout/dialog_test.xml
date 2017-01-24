@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_between"
+        android:text="¡YA TENEMOS EL RESULTADO DEL TEST!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="@dimen/padding_between"
+        android:paddingLeft="@dimen/padding_between"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/info_text">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="Según el Test que acaba de dar el tipo de aprendizaje que más se adecúa a su persona es:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_between"
+                android:text="¡PRAGMÁTICO!"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingRight="@dimen/padding_between"
+                android:paddingLeft="@dimen/padding_between"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/info_tipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="Son muy activos, piensan que hay que intentarlo todo por lo menos una vez. En cuanto desciende la excitación de una novedad comienzan a buscar la próxima. Se crecen ante los desafíos que suponen nuevas experiencias, y se aburren con los largos plazos. Son personas muy de grupo que se involucran en los asuntos de los demás y centran a su alrededor todas las actividades"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:weightSum="1"
+                android:layout_below="@+id/info_text6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/si_boton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONTINUAR"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_below="@+id/info_text2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignRight="@+id/entrar_boton"
+                    android:layout_alignEnd="@+id/entrar_boton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="16dp"
+                    android:layout_marginRight="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

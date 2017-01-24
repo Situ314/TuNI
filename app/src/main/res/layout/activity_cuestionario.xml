@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Cuestionario">
+
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+            <CheckBox android:id="@+id/act1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_1"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_2"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_3"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_4"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_5"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_6"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_7"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/act8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act_8"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_1"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_2"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_3"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_4"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_5"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_6"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_7"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/ref8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ref_8"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teo_1"
+            android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_2"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_3"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_4"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_5"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_6"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_7"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/teo8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teo_8"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_1"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_2"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_3"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_4"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_5"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_6"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_7"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/pra8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pra_8"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <!-- Toolbar -->
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:src="@drawable/ic_done_white_24dp"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/padding_between"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

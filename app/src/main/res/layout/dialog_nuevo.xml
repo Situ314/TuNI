@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_between"
+        android:text="CUESTIONARIO HONEY-ALONSO DE ESTILOS DE APRENDIZAJE"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="@dimen/padding_between"
+        android:paddingLeft="@dimen/padding_between"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/info_text">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="•	Este cuestionario ha sido diseñado para identificar su Estilo preferido de Aprendizaje. No es un test de inteligencia , ni de personalidad"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/info_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="• No hay límite de tiempo para contestar al Cuestionario. No le ocupará más de 15 minutos."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/info_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="•	No hay respuestas correctas o erróneas. Será útil en la medida que sea sincero/a en sus respuestas."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/info_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="•	Si está más de acuerdo con un ítem seleccione dicho ítem. Si, por el contrario, está en desacuerdo con el ítem, no lo seleccione."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/info_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingBottom="@dimen/padding_between"
+                android:paddingTop="@dimen/padding_between"
+                android:paddingRight="10dp"
+                android:paddingLeft="@dimen/padding_between"
+                android:text="•	Por favor conteste a todos los ítems."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="14dp"
+                android:textAlignment="textStart"
+                android:layout_below="@+id/info_text5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/info_text5"
+                android:layout_alignEnd="@+id/info_text5" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:weightSum="1"
+                android:layout_below="@+id/info_text6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/si_boton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IR AL CUESTIONARIO"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_below="@+id/info_text2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignRight="@+id/entrar_boton"
+                    android:layout_alignEnd="@+id/entrar_boton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="16dp"
+                    android:layout_marginRight="10dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

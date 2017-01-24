@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Tutor</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="act_1">Muchas veces actúo sin mirar las consecuencias.</string>
+    <string name="act_2">Procuro estar al tanto de lo que ocurre aquí y ahora. </string>
+    <string name="act_3">Me entusiasmo con el reto de hacer algo nuevo y diferente.</string>
+    <string name="act_4">Me siento a gusto con personas espontáneas y divertidas. </string>
+    <string name="act_5">La mayoría de las veces expreso abiertamente cómo me siento. </string>
+    <string name="act_6">Es mejor gozar del momento presente que deleitarse pensando en el pasado o en el futuro.</string>
+    <string name="act_7">En conjunto hablo más que escucho</string>
+    <string name="act_8">Me gusta buscar nuevas experiencias. </string>
+    <string name="ref_1">Disfruto cuando tengo tiempo para preparar mi trabajo y realizarlo a conciencia. </string>
+    <string name="ref_2">Escucho con más frecuencia que hablo. </string>
+    <string name="ref_3">Antes de hacer algo estudio con cuidado sus ventajas e inconvenientes.</string>
+    <string name="ref_4">Me gusta analizar y dar vueltas a las cosas.</string>
+    <string name="ref_5">Prefiero oír las opiniones de los demás antes de exponer la mía.</string>
+    <string name="ref_6">Me molestan las personas que siempre desean apresurar las cosas.</string>
+    <string name="ref_7">Suelo reflexionar sobre los asuntos y problemas.</string>
+    <string name="ref_8">El trabajara conciencia me llena de satisfacción y orgullo.</string>
+    <string name="teo_1">Estoy seguro/a de lo que es bueno y lo que es malo, lo que está bien y lo que está mal.</string>
+    <string name="teo_2">Estoy a gusto siguiendo un orden en las comidas, en el estudio, haciendo ejercicio regularmente.</string>
+    <string name="teo_3">Prefiero las cosas estructuradas a las desordenadas.</string>
+    <string name="teo_4">Me cuesta ser creativo/a, romper estructuras.</string>
+    <string name="teo_5">Tiendo a ser perfeccionista.</string>
+    <string name="teo_6">Siempre trato de conseguir conclusiones e ideas claras.</string>
+    <string name="teo_7">Con frecuencia miro hacia delante para prever el futuro.</string>
+    <string name="teo_8">Me molestan las personas que no actúan con lógica.</string>
+    <string name="pra_1">Tengo fama de decir lo que pienso claramente y sin rodeos. </string>
+    <string name="pra_2">Creo que lo más importante es que las cosas funcionen.</string>
+    <string name="pra_3">Me gustan más las personas realistas y concretas que las teóricas.</string>
+    <string name="pra_4">En las reuniones apoyo las ideas prácticas y realistas.</string>
+    <string name="pra_5">Me gusta experimentar y aplicar las cosas. </string>
+    <string name="pra_6">Compruebo antes si las cosas funcionan realmente.</string>
+    <string name="pra_7">Rechazo ideas originales y espontáneas si no las veo prácticas.</string>
+    <string name="pra_8">Creo que el fin justifica los medios en muchos casos.</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+</resources>
